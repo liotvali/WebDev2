@@ -1,65 +1,51 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
 
-.header {
-	width: 1440px;
-	height: 60px;
-	background-color: lightblue;
-}
-
-.head {
-	color: gray;
-	font-size: 30px;
+* {
 	box-sizing: border-box;
-	padding: 12px 50px 12px 1000px;
-	font-family: 'Tinos', serif;
 }
 
 .body {
 	width: 1440px;
-	position: static;
 }
 
-section {
+.header {
+	height: 60px;
+	background-color: lightblue;
+	color: gray;
+	font-size: 30px;
+	text-align: right;
+	line-height: 60px;
+	padding-right: 50px;
+	font-family: 'Tinos', serif;
+}
+
+.mainsection {
+	text-align: center;
+	padding: 50px 0;
+}
+.column {
 	width: 400px;
-	height: 800px;
 	display: inline-block;
 	border: 5px solid lightpink;
 	border-radius: 15px;
-	box-sizing: border-box;
 	font-family: 'Tinos', serif;
 	font-size: 17px;
 	color: dimgray;
-	vertical-align: top;
 	padding: 20px 20px 20px 30px;
 	line-height: 1.5em;
+	text-align: left
 }
 
-h2 {
+.columnhead {
 	font-size: 20px;
 	text-transform: uppercase;
 }
 
-.one {
-	position: static;
-	margin-top: 52px;
-	margin-left: 70px;
-	margin-bottom: 52px;
-}
-
 .two {
-	position: relative;
-	top: 52px;
-	right: 50px;
-	left: 50px;
+	margin: 0 30px;
 }
 
-.three {
-	position: static;
-	margin-top: 52px;
-	margin-left: 100px;
-	margin-bottom: 52px;
-}
 
 footer {
 	width: 1440px;
@@ -75,11 +61,7 @@ footer {
 }
 
 .data {
-	position: static;
 	margin-top: 20px;
 	margin-left: 70px;
 	margin-right: 1200px;
-}
-
-.tag {
 }
