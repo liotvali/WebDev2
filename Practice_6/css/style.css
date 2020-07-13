@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+ 	padding: 0;
+ }
+
+html {
+	font-size: 10px;
+}
+
+.body {
+	width: 144rem;
+	font-size: 3rem;
+	font-family: Arial;
+}
+
+.header {
+	height: 14rem;
+	line-height: 7rem;
+	color: #E50043;
+}
+
+a {
+	color: #E50043;
+	text-decoration: none;
+}
+.name, .menu {
+	display: inline-block;
+	width: 45%;
+}
+
+.menu {
+	text-align: right;
+}
+
+.name {
+	margin-left: 7rem;
+}
+
+.image {
+	height: 95rem;
+	background-image: url(../img/evian_origins_logo.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-size: 10rem;
+	color: #E50043;
+	line-height: 11rem;
+}
+
+.intro {
+	width: 104rem;
+	height: 28rem;
+	border: 3px solid black;
+	border-radius: 20px;
+	position: absolute;
+	left: 20.1rem;
+	top: 124rem;
+	display: flex;
+}
+
+.description {
+	font-size: 2.5rem;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	align-self: center;
+	padding-left: 1.5rem;
+}
+
+.photos {
+	display: inline-block;
+}
+
+.wang, .blue, .chiara {
+	height: 86rem;
+	width: 28rem;
+}
+
+.wang {
+	background-image: url(../img/wang.png);
+}
+
+.blue {
+	background-image: url(../img/blue.png);
+}
+
+.chiara {
+	background-image: url(../img/chiara.png);
+}
