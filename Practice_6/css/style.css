@@ -15,11 +15,14 @@ html {
 }
 
 .header {
-	height: 14rem;
+	height: 7rem;
+	width: 144rem;
+	position: fixed;
+	background-color: white;
 	line-height: 7rem;
 	color: #E50043;
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
 }
 
 a {
@@ -29,10 +32,11 @@ a {
 
 .name {
 	margin-left: 7rem;
+
 }
 
 .menu {
-	margin-right: 7rem;
+	margin-right: 10rem;
 }
 
 .image {
@@ -58,12 +62,11 @@ a {
 	margin-top: 10rem;
 }
 
-.description, .text, .psText {
+.story, .text, .ps-text {
 	font-size: 2.5rem;
 	line-height: 29px;
 	letter-spacing: 0.05em;
-	padding-top: 1.5rem;
-	padding-left: 1.5rem;
+	padding: 1.5rem;
 }
 
 .photos {
@@ -76,7 +79,7 @@ a {
 	align-items: flex-end;
 }
 
-.wang, .blue, .chiara {
+.bottle {
 	height: 86rem;
 	width: 28rem;
 }
@@ -97,7 +100,7 @@ a {
 	height: 10rem;
 }
 
-.wang2, .blue2, .chiara2 {
+.description {
 	width: 30rem;
 	text-align: center;
 }
@@ -108,11 +111,11 @@ a {
 	align-items: center;
 }
 
-.psText {
+.ps-text {
 	width: 75rem;
 
 }
-.psImage {
+.ps-image {
 	height: 22rem;
 	width: 10rem;
 	background-image: url(../img/glass.png);
