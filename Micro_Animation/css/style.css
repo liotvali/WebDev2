@@ -1,0 +1,55 @@
+.body {
+	display: inline-block;
+}
+
+.container {
+	cursor: pointer;
+	width: 600px;
+	position: relative;
+	display: flex;
+}
+
+.img {
+	height: 100%;
+	width: 100%;
+}
+
+.placeholder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: white;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 1s linear;
+	display: flex;
+	justify-content: space-between;
+}
+.one {
+	margin-left: 20px;
+}
+.two {
+	margin-right: 20px;
+}
+
+.container:hover .placeholder {
+	opacity: 1;
+}
+.container:hover .two {
+	opacity: 1;
+	color: black;
+}
+
+.dress {
+	cursor: pointer;
+	width: 500px;
+	height: 700px;
+	background-image: url(../img/first.jpg);
+	background-repeat: no-repeat;
+	transition: background-image .5s cubic-bezier(0.45, 0, 0.55, 1);
+}
+.dress:hover {
+	background-image: url(../img/second.JPG);
+}
