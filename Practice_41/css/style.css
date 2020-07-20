@@ -1,0 +1,92 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Nunito&display=swap');
+
+.heading {
+	width: 1440px;
+	height: 200px;
+	background-color: teal;
+}
+
+.name {
+	color: silver;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 40px;
+	text-shadow: 0px 0px 20px skyblue;
+	text-indent: 80px;
+	line-height: 180px;
+	letter-spacing: .2em;
+}
+
+.sectionimage {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/wallp.png);
+	background-size: cover;
+	background-repeat: fixed;
+}
+
+.sectionlinks {
+	width: 1440px;
+	height: 100px;
+	background-color: teal;
+}
+
+.links {
+	color: silver;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 22px;
+	text-indent: 80px;	
+	text-shadow: 0px 0px 20px skyblue;
+	line-height: 100px;
+	letter-spacing: .1em;
+}
+
+a {
+	color: silver;
+	text-decoration: none;
+}
+
+.sectiontext {
+	width: 1440px;
+	height: 847px;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+	color: teal;
+	letter-spacing: .1em;
+}
+
+.texthead {
+	margin-top: 50px;
+	margin-left: 80px;
+	font-size: 30px;
+	text-shadow: 0px 0px 20px pink;
+}
+
+.sectiontext p {
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px; 
+	text-shadow: 0px 0px 15px pink;
+}
+
+.footer {
+	width: 1440px;
+	height: 200px;
+	background-color: teal;	
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: bottom 77px left 80px;
+	letter-spacing: .1em;
+}
+
+.footer p {
+	width: 1440px;
+	height: 200px;
+	text-transform: uppercase;
+	color: silver;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 46px; 
+	text-shadow: 0px 0px 15px pink;
+	line-height: 200px;
+	text-indent: 746px; 
+}
